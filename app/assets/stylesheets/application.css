@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+h1{
+  color:red;
+}
+h2{
+  color:lightblue;
+}
+#title {
+  font-size: 50px;
+  text-align: center;
+  color:red;
+}
+.nomedaloja { text-align:center;
+
+}
+.frase1 {
+  color: blue;
+}
+body {
+  background-color: rgba(201, 76, 76, 0.3);
+
+}
+.frase2 {
+  color: green;
+}

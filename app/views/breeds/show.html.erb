@@ -1,9 +1,30 @@
 <p id="notice"><%= notice %></p>
+<body>
+
+<p id="title"> NEOPET </p>
 
 <p>
-  <strong>Name:</strong>
-  <%= @breed.name %>
+  <div class="card text-center">
+  <div class="card-header">
+</dic>
+  <h2><strong><i>Name:</strong></i> <br></h2>
+  <h2> <%= @breed.name %> </h2>
+
+</p>
+<p>
+  <h2><strong> <i>Detail</i>:</strong> <br></h2>
+  <h2> <%= @breed.detail %> </h2>
 </p>
 
-<%= link_to 'Edit', edit_breed_path(@breed) %> |
-<%= link_to 'Back', breeds_path %>
+
+<p>
+<div class="block">
+  <p class="frase1"> Este e um paragrafo. </p>
+  <p class="frase2"> Este é outro paragrafo. </p>
+</div>
+
+</p>
+<%= link_to 'Edit', edit_breed_path(@breed), class: 'btn btn-outline-primary' %>
+
+<%= link_to 'Back', breeds_path, class:'btn btn-outline-dark' %>
+</body>
